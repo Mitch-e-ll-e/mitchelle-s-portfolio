@@ -5,9 +5,10 @@ body {
   color:white;
   
 nav{background-color:transparent;
+    width:85%;
 color:white;
 padding:50px;
-margin:30px;
+margin:20px;
 border:solid 2px  #3C3E93;
 border-radius: 30px;
 
@@ -28,6 +29,7 @@ nav a {
 }
 
 .app-container{display:flex;
+               width:100%;
 height: 150px;}
 
 
@@ -36,13 +38,13 @@ height: 150px;}
 
 
 .main-container{background:#270b26;
-  max-width: 2000px;
+  width: 90%;
   color:white;
 padding:50px;
 margin:30px;
 border:solid 2px #3C3E93;
 border-radius: 30px;
-margin-left:18px;
+margin-left:30px;
 padding-left: 8px;
 padding-top:30px;
 display:flex;
@@ -52,6 +54,7 @@ flex-wrap:wrap;
 
 #main{background: linear-gradient(black,rgb(49, 36, 49));
 margin-top: 50px;
+      width:100%;
 }
 
 
@@ -59,6 +62,7 @@ p{font-size:25px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align: center;
 padding-top:80px;
+  padding-left:30px;
 }
 
 p b{font-size:60px;}
@@ -71,6 +75,7 @@ height:300px;
 border-radius: 500px;
 margin-left:50px;
 padding-top: 30px;
+        padding-left:30px;
 position:relative;
 }
 button{background-color: transparent;
@@ -78,7 +83,8 @@ border:none;
 }
 
 #projects{background:black;
-margin-top: 20px;}
+margin-top: 20px;
+         width:100%;}
 
 .project-container{background: transparent;
 margin:250px;
@@ -90,8 +96,8 @@ flex-wrap: wrap;
 justify-content:space-around;
 margin-top: 20px;}
 
-.project-box{width:400px;
-height:500px;
+.project-box{width:480px;
+height:550px;
 background-color:transparent; 
 border: purple solid 1px;
 border-radius:60px;
@@ -100,11 +106,11 @@ box-sizing: border-box;
 margin-top: 100px;
 margin: 20px;}
 
-.project-image{width: 300px;
+.project-image{width: 400px;
   height: 300px;
 border-radius:45px;}
 
-.project-button{padding-left: 1200px;;}
+.project-button{padding-left: 1200px;}
 
 h1{font-size: 40px;
   margin-top: 50px;
@@ -125,7 +131,7 @@ padding-top: 0ch;
 
 .paragraph{text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 13px;
+font-size: 14px;
 padding:0px;}
 
 
@@ -143,7 +149,7 @@ padding-top: 3px;
 }
 
 .footer-container{display: flex;
-padding: 20px;
+padding: 5px;
 flex-wrap: wrap;}
 
 .footer-child{padding: 100px;}
@@ -157,9 +163,9 @@ height:400px;}
 
 #technology{ 
   flex-wrap: wrap;
-margin-left: 60px;
-width: 750px;
-height: 300px;
+margin-left: 0px;
+width: 600px;
+height: 600px;
 }
 
 .technology-image{margin-top: 100px;}
