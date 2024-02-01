@@ -66,8 +66,8 @@ p b{font-size:60px;}
 
 .image1{max-width:150px;
 }
-.image2{width:378px;
-height:550px;
+.image2{width:270px;
+height:300px;
 border-radius: 500px;
 margin-left:50px;
 padding-top: 30px;
@@ -126,7 +126,7 @@ padding-top: 0ch;
 .paragraph{text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 13px;
-padding:5px;}
+padding:0px;}
 
 
 
@@ -163,9 +163,12 @@ height: 300px;
 }
 
 .technology-image{margin-top: 100px;}
-.technology-image2{margin-top: 100px;}
+.technology-image2{margin-top: 100px;
+                  width:350px;}
 
-.footer-image{margin-top: 50px;}
+.footer-image{margin-top: 50px;
+             width:250;
+             padding:40px;}
 
 #footer{background:linear-gradient(rgb(49, 36, 49),black,rgb(49, 16, 49));
     width:100%;
