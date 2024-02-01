@@ -64,7 +64,7 @@ padding-top:80px;
 p b{font-size:60px;}
 
 
-.image1{width:150px;
+.image1{max-width:150px;
 }
 .image2{width:378px;
 height:550px;
