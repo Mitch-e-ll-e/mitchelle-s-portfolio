@@ -45,7 +45,7 @@ const Footer = () => {
             
 
             <button className="download-cv-button" onClick={handleClick}>
-      Download CV <span className="download-icon">&#x21aa;</span> </button>
+      Download CV  </button>
 
 
         </section>

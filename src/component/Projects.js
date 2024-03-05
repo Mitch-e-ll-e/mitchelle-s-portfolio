@@ -7,8 +7,8 @@ import Button3 from "../Assets/Button3.png";
 const Projects = () =>  {
     return(
         <section className="projects">
-            <h1><u>Projects</u> <img src={Button3} alt="image1"className="project-button"/>  
-            </h1>
+            <h2 className="project-paragraph"><u>Projects</u> <img src={Button3} alt="image1"className="project-button"/>  
+            </h2>
             <p className="paragraph1" >Dive into a diverse array of projects that demonstrate my versatility,<br/>
              Each is evidence of my dedication to pushing limits and creating inventive solutions.</p>
             <div className="projects-container">
