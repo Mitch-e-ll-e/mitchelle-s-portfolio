@@ -95,13 +95,11 @@ font-size: 2.5rem;}
       font-size: 1.875rem;
     }
 
-    .navbar{display: none;}
+    
 
-    .navbar ul{margin-right: 0;}
+    
 
-    .navbar a{display: block;
-    margin-bottom: 10px;
-  }
+    
 }
   
 
@@ -129,9 +127,7 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    display: none;
-  }
+  
 }
 
 .about{
