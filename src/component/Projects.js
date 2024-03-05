@@ -15,10 +15,10 @@ const Projects = () =>  {
                 <div className="project-box">
                 <img src={Webdesign} alt="image2"/>
                 <h3>TASKER</h3>
-                <p className="paragraph">👉 designed to simplyfy you daily tasks and transform the way you manage your tasks<br/>
-            With a user-friendly interface and powerful features,<br/>
-            Tasker ensures that you can effortlessly creat, organize,<br/>
-            and track your tasks in one centralized hub</p>
+                <p className="paragraph">👉designed to simplify your daily tasks and transform the way you manage your time.<br/>
+                 With a user-friendly interface and powerful features,<br/>
+                  Tasker ensures that you can effortlessly create, organize, and track your tasks in one centralized hub</p>
+
             </div>
 
             <div className="project-box">
