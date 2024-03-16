@@ -1,4 +1,4 @@
-body{ background:linear-gradient(black,  rgb(97, 3, 97), rgb(0, 0, 0));
+body{ background:linear-gradient(black, rgb(78, 33, 78), rgb(0, 0, 0));
     align-items: center;
     font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -9,7 +9,7 @@ body{ background:linear-gradient(black,  rgb(97, 3, 97), rgb(0, 0, 0));
 }
 
 @media (max-width: 768px) {
-  body{background: linear-gradient(black, rgb(97, 3, 97));
+  body{background: linear-gradient(black, rgb(78, 33, 78));
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
