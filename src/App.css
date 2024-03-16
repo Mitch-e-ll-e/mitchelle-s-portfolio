@@ -1,4 +1,4 @@
-body{ background:linear-gradient(black,  rgb(36, 3, 36), rgb(0, 0, 0));
+body{ background:linear-gradient(black,  rgb(97, 3, 97), rgb(0, 0, 0));
     align-items: center;
     font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -9,7 +9,7 @@ body{ background:linear-gradient(black,  rgb(36, 3, 36), rgb(0, 0, 0));
 }
 
 @media (max-width: 768px) {
-  body{background: linear-gradient(black, rgb(36, 3, 36));
+  body{background: linear-gradient(black, rgb(97, 3, 97));
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,6 @@ body{ background:linear-gradient(black,  rgb(36, 3, 36), rgb(0, 0, 0));
 .header{display: flex;
   background:black;
 flex-direction: column;
-  background:black;
 align-items: center;
 padding: 1.25rem;
 width: 100%;}
@@ -523,7 +522,7 @@ height: 450px;}
   .download-cv-button
  {   margin-top: 100px;
   width:450px ;
-  height: 12px;
+  height: 120px;
   margin-left: 230px;
   font-size:40px ;
   border-radius: 40px;}
