@@ -7,10 +7,19 @@ import Button3 from "../Assets/Button3.png";
 const Projects = () =>  {
     return(
         <section className="projects">
-            <h2 className="project-paragraph"><u>Projects</u> <img src={Button3} alt="image1"className="project-button"/>  
-            </h2>
+            <div className="project-box1">
+                <div className="pp1">
+            <h2 className="project-paragraph">Projects </h2>
             <p className="paragraph1" >Dive into a diverse array of projects that demonstrate my versatility,<br/>
              Each is evidence of my dedication to pushing limits and creating inventive solutions.</p>
+            </div>
+            <div className="pp2">
+             <img src={Button3} alt="image1"className="project-button"/>  
+             </div>
+             
+             </div>
+
+                 
             <div className="projects-container">
                 <div className="project-box">
                 <img src={Webdesign} alt="image2"/>
@@ -25,7 +34,7 @@ const Projects = () =>  {
                 <img src={Webdesign2} alt="image3"/>
                 <h3>PETROL-VEST</h3>
                 <p className="paragraph"> 👉 meticulously crafted to empower investors and enthuiasts with comprehensiveinformation.<br/>
-                Our user-friendly interface ensures a seamless experience, allowing you to take control of<br/>
+                Our user-friendly interface ensures a seamless experience, allowing you <br/>to take control of
                  your fuel management with just a few taps.</p>
             </div>
 

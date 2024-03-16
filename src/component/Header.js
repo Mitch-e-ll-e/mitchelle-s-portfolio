@@ -6,6 +6,7 @@ import Spotify2 from "../Assets/Spotify2.png";
 import Linkedin from "../Assets/Linkedin.png";
 import Dribble from"../Assets/Dribble..png";
 import Amazon from "../Assets/Amazon..png";
+import Google from "../Assets/Google..png";
 const  Header = ()  =>  {
     const handleClick = () => {
         console.log("Hire me button clicked");}
@@ -13,7 +14,7 @@ const  Header = ()  =>  {
         <header className="header">
             <nav className= "navbar">
                 <div className="logo">
-                    <img src={Mitchelle} alt="logo1"/>
+                    <img src={Mitchelle} alt="logo1" className="navbar-logo"/>
                 </div>
             <div className="contact">
                 <button className="contact-btn" onClick={handleClick}>Contact</button>
@@ -25,9 +26,9 @@ const  Header = ()  =>  {
             <h1>👋 Hey, I'm Mitchelle.</h1>
                 <h2> A Full-Stack Developer.</h2>
                 <button onClick={handleClick}>Hire Me</button>
+             </div> 
 
 
-            </div>
             <div  className="image">
                 <img src={Gozie} alt="goziepic2" className="headerimage"/>
 
@@ -49,11 +50,18 @@ const  Header = ()  =>  {
         </div>
 
         <div className="social-media-apps">
+            <div className="sm1">
          <img src={Microsoft} alt="Microsoft"/>
         <img src={Spotify2} alt="Spotify"/>
+        </div>
+        <div className="sm2">
          <img src={Linkedin} alt="Linkedin"/>
        <img src={Dribble} alt="Dribble"/>
+       </div>
+       <div className="sm3">
          <img src={Amazon} alt="Amazon"/> 
+         <img src={Google} alt="Google"/>
+         </div>
 
     </div>
     </div>  

@@ -7,7 +7,7 @@ import html from "../Assets/html.png";
 import css from "../Assets/css.png";
 const Footer = () => {
     const handleClick = () => {
-        console.log("Hire me button clicked");}
+        console.log("downloadcv");}
     return(
         <section className="footer">
             <div className="footer-container">
@@ -43,10 +43,10 @@ const Footer = () => {
                 </div>
             </div>
             
-
+            <div className="downloadbtn">
             <button className="download-cv-button" onClick={handleClick}>
       Download CV  </button>
-
+      </div>
 
         </section>
     );
