@@ -42,7 +42,7 @@ const Projects = () =>  {
                 <img src={Webdesign3} alt="image4"/>
                 <h3>L'VIRG</h3>
                 <p className="paragraph"> 👉 A curated user friendly space that celebrates diversity, self-expression,and the artistry of fashion.<br/>
-                Immerse yourself in a world where clothing is more thst fabric; Its a statement, an expresion of your personality
+                Immerse yourself in a world where clothing is more than fabric; Its a statement, an expresion of your personality
                 </p>
 
             </div>
